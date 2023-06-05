@@ -3,6 +3,6 @@ packages:
     actions:
       - name: apicall
         limits:
-          timeout: 1500000
+          timeout: 150000
           memory: 1024
         runtime: 'go:default'
